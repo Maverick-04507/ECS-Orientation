@@ -170,7 +170,7 @@ const Members = () => {
       linkedin: 'https://www.linkedin.com/in/indranuj-dev-b45366202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
     {
-      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724264641/WhatsApp_Image_2024-07-11_at_23.43.22_924b96d2_zenvhe.jpg',
+      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724350649/IMG-20240819-WA0023_-_manisha_wl4zpe.jpg',
       name: 'Manisha Saloi',
       designation: 'Junior Design Member',
       fb: 'https://www.facebook.com/profile.php?id=61550675969308&mibextid=ZbWKwL ',
