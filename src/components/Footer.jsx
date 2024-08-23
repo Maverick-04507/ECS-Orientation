@@ -7,7 +7,7 @@ import LinkedInLogo from '../images/linkedin-logo.png'
 
 const Footer = () => {
   return (
-    <div className='pt-5 mt-72 h-[25rem] flex flex-col justify-center items-center space-y-5 text-white sm:space-y-3 sm:pt-0 sm:h-[22rem]'>
+    <div className='pt-5 mt-[15rem] h-[25rem] flex flex-col justify-center items-center space-y-5 text-white sm:space-y-3 sm:pt-0 sm:h-[22rem]'>
       <div className='flex flex-col justify-center items-center space-y-5 sm:flex-row sm:justify-between sm:items-center sm:space-x-3 sm:h-44  sm:w-[90vw] sm:pl-20 sm:pr-20  sm:text-left'>
         <div className='flex flex-col justify-center items-center space-y-5 sm:items-start'>
           <img src={Logo} alt="" className='w-36 h-16' />
