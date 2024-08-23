@@ -109,7 +109,7 @@ const FAQ = () => {
   return (
     <div>
       <h1 className='text-[2rem] text-[#ffffff] mb-10'>FREQUENTLY ASKED <span>QUESTIONS</span></h1>
-      <div className='flex flex-col justify-around align-center w-[80%] m-auto' style={{ rowGap: '1rem', padding: '0.5rem' }}>
+      <div className='flex flex-col justify-around align-center w-[75%] m-auto mb-0' style={{ rowGap: '1rem', padding: '0.5rem' }}>
         {data.map((item, index) => <Card question={item.Question} answer={item.Answer} windowWidth={varWindowWidth} />)}
       </div>
     </div >
