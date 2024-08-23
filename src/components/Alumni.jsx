@@ -65,6 +65,7 @@ const Carousel = () => {
                     }}
                   >
                     <img
+                    className="bg-gray-200 border-4 border-white shadow-2xl shadow-black/50"
                       style={{
                         position: "relative",
                         top: "1.2rem",
@@ -80,7 +81,7 @@ const Carousel = () => {
                       style={{ zIndex: "-2" }}
                       className="flex flex-col rounded-[1rem] p-[2rem] space-y-3"
                     >
-                      <label className="text-[1.2rem] z-0 md:text-[2rem]">{item.name}</label>
+                      <label className="text-[1.2rem] z-0 md:text-[2rem] font-bold">{item.name}</label>
                       <label className="text-xs z-0 md:text-[1.3rem]">{item.year}</label>
                       <label className="text-sm z-0 md:text-[1.3rem]">{item.designation}</label>
                       <label className="text-[0.8rem] z-0 md:text-[1.3rem]">{item.company}</label>
