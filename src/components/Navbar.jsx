@@ -27,7 +27,7 @@ const Navbar = (props) => {
   const navs_left = [{ text: 'events', type: 'route', dest: props.events === 'active' ? '#' : '/events' }, { text: 'about us', type: 'route', dest: props.about === 'active' ? '#' : '/about' },{ text: 'members', type: 'route', dest: props.members === 'active' ? '#' : '/members' },];
 
 
-  const navs_right = [ { text: 'developers', type: 'route', dest: props.developers === 'active' ? '#' : '/developers' }, { text: 'resource hub', type: 'route', dest: props.developers !== 'active' ? '#' : '/resourcehub'}];
+  const navs_right = [ { text: 'developers', type: 'route', dest: props.developers === 'active' ? '#' : '/developers' }, { text: 'resource hub', type: 'route', dest: props.developers === 'active' ? '#' : '/resourcehub'}];
 
   
 const [mobileMenu, setMenu] = useState('0vh');
