@@ -9,6 +9,7 @@
   background-position: center !important;
   border-radius: 15px !important;
   overflow: hidden !important;
+  border: none !important;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
 }
