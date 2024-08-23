@@ -146,6 +146,14 @@ const Members = () => {
       linkedin: 'https://www.linkedin.com/in/anwesh-saha-8391972b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
+      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724185452/me2_-_Indranuj_Dev_wncjuu.jpg',
+      name: 'Indranuj Dev',
+      designation: 'Junior Design Member',
+      fb: 'https://www.facebook.com/profile.php?id=100093701234558&mibextid=ZbWKwL ',
+      insta: 'https://www.instagram.com/indranuj_dev?igsh=MXhua25jeG5uMWhlbg==',
+      linkedin: 'https://www.linkedin.com/in/indranuj-dev-b45366202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+    },
+    {
       img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184086/IMG_1570_-_Rajdeep_Sarmah_fpockn.jpg',
       name: 'Rajdeep Sarmah',
       designation: 'Junior Design Member',
@@ -160,14 +168,6 @@ const Members = () => {
       fb: 'https://www.facebook.com/profile.php?id=100085049243095 ',
       insta: ' https://www.instagram.com/kasishsahu10?igsh=bmZ4Zm02NGk3bW10',
       linkedin: 'https://www.linkedin.com/in/kasish-sahu-94154028a'
-    },
-    {
-      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724185452/me2_-_Indranuj_Dev_wncjuu.jpg',
-      name: 'Indranuj Dev',
-      designation: 'Junior Design Member',
-      fb: 'https://www.facebook.com/profile.php?id=100093701234558&mibextid=ZbWKwL ',
-      insta: 'https://www.instagram.com/indranuj_dev?igsh=MXhua25jeG5uMWhlbg==',
-      linkedin: 'https://www.linkedin.com/in/indranuj-dev-b45366202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     },
     {
       img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724350649/IMG-20240819-WA0023_-_manisha_wl4zpe.jpg',

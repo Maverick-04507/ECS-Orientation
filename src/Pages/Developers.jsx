@@ -20,20 +20,20 @@ const Developers = () => {
     linkedin: 'https://www.linkedin.com/in/nikhilsinghparashar/'
   },
   {
-    img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724185484/Sibajit_-_SIBAJIT_MAZUMDER_iqy8ky.jpg',
-    name: 'Sibajit Mazumder',
-    designation: 'Junior Technical Member',
-    fb: 'https://www.facebook.com/profile.php?id=61550651010065&mibextid=ZbWKwL ',
-    insta: ' https://www.instagram.com/siibajit_maz.808/',
-    linkedin: 'www.linkedin.com/in/sibajit-mazumder'
-  },
-  {
     img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724185452/Profile_-_Subrata_Lodh_qx1wdq.jpg',
     name: 'Subrata Lodh',
     designation: 'Junior Technical Member',
     fb: 'https://www.facebook.com/profile.php?id=100088421967870&mibextid=ZbWKwL ',
     insta: '',
     linkedin: 'https://www.linkedin.com/in/subrata-lodh-45541328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+  },
+  {
+    img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724185484/Sibajit_-_SIBAJIT_MAZUMDER_iqy8ky.jpg',
+    name: 'Sibajit Mazumder',
+    designation: 'Junior Technical Member',
+    fb: 'https://www.facebook.com/profile.php?id=61550651010065&mibextid=ZbWKwL ',
+    insta: ' https://www.instagram.com/siibajit_maz.808/',
+    linkedin: 'www.linkedin.com/in/sibajit-mazumder'
   },
   {
     img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184529/IMG-20240319-WA0017_-_DEEPANSHU_SHARMA_vsnu1j.jpg',
