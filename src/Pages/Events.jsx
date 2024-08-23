@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+
 import EventsHero from '../components/EventsHero';
 import EventsCard from '../cards/EventsCard';
 const Events = () => {
@@ -16,9 +17,11 @@ const Events = () => {
     return (
         <div>
             <Navbar home='inactive' events='active' developers='inactive' about='inactive' feed='inactive' members='inactive' />
+            <div className='eventbg' >
             <EventsHero />
-            {events.map((item) => <EventsCard reference={item.reference} name={item.name} desc={item.desc} photo={item.photo} order={item.order} />)}
+            {events.map((item) => <EventsCard  title1={item.name} content={item.desc} image={item.photo} order={item.order} />)}
             <Footer />
+            </div>
         </div>
     );
 };

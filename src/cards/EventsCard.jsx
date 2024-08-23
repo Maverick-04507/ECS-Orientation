@@ -1,48 +1,52 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import styles from "./events.module.scss";
+const EventCard = ({ content, title1, id, size, image }) => {
+  /*  NEW CARD DOCS:
+     size =  small OR large
+      - small width is 250px and will break at 500px and become 100% of the width
+      - large width is 500px and will break at 800px and become 100% of the width 
+      - large will also break at 500px again to become identical to small
+      - props : - title1 : front heading
+                - title2 : backside heading
+                - content: content on backside
+                - image : background image on front
+                - id : event id
 
-const EventsCard = (props) => {
-  const t = props.order === `flex-row` ? '-10%' : '10%';
+   */
+
+  
   return (
-    <div id={props.reference} className={`flex flex-col flex-wrap justify-center align-center md:flex md:${props.order} bg-[#8BD6ECB2] m-[3rem] p-[1.5em] w-[85%%] text-[#ffffff]`} style={{
-      borderRadius: '1.5rem', transitionDuration: '1000ms ease'
-    }}>
-      <img className='h-[13rem] w-[13rem] rounded-[1rem] ml-8 mb-3 sm:ml-2 m-[0 auto]' style={{ objectFit: 'cover' }} src={props.photo} alt="" />
-      <div className='flex flex-col w-[80%] justify-center items-center'>
-        <h1 className='text-[1.5rem] ml-10 sm:ml-0 sm:text-[2rem] uppercase mb-3' >{props.name}</h1>
-        <p className='text-sm sm:text-lg ml-10 sm:ml-0 w-[95%] sm:w-[80%] text-center leading-5'>{props.desc}</p>
+    <div
+      key={id}
+      className={styles.col}
+      onTouchStart={(event) => event.currentTarget.classList.toggle("hover")}
+    >
+      <div className={styles.container}>
+        <div className={styles.front} style={{ backgroundImage: `url(${image})` }}>
+          <div className={styles.inner}>
+            <p>{title1}</p>
+          </div>
+        </div>
+        <div className={styles.back}>
+          <div className={styles.inner}>
+            <div className={styles.backSide}>
+              <h1 className={styles.backHead}>{title1}</h1>
+              <p className={styles.para}>{content}</p>
+              <div className={styles.buttons}>
+                <Link to="/" className={styles.btn}>
+                  Register
+                </Link>
+                <Link to="/" className={styles.btn}>
+                  Details
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div >
-  )
-}
+    </div>
+  );
+};
 
-export default EventsCard
-// import React from 'react'
-
-// const EventsCard = (props) => {
-//   const t = props.order === 'flex-row' ? '-10%' : '10%';
-//   return (
-//     <div id={props.reference} className='flex flex-col align-center md:flex md:${props.order} bg-[#3498db] shadow-lg rounded-xl overflow-hidden m-[3rem] p-[2.3125rem] pr-0 text-[rgb(255,255,255)]' style={{
-//       transitionDuration: '1000ms ease',
-//       height: '20rem', // Adjusted height to change the aspect ratio
-//     }}>
-//       <div className="relative">
-//         <img className='w-[10rem] h-[10rem]' src={props.photo} alt={props.name} />
-//         <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[#3498db] to-transparent">
-//           <h1 className='text-[2rem] uppercase'>{props.name}</h1>
-//         </div>
-//       </div>
-//       <div className='flex flex-col mt-4'>
-//         <p className="text-lg" style={{ maxWidth: '60%' }}>
-//           {props.desc}
-//         </p>
-//       </div>
-//     </div>
-    
-    
-
-
-    
-//   )
-// }
-
-// export default EventsCard
+export default EventCard;

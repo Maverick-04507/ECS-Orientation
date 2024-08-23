@@ -41,3 +41,9 @@ html {
  #bgImg{
     background: #060027;
  }
+ .eventbg{
+    background-image: url(../public/42341.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
