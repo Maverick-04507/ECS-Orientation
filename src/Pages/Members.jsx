@@ -186,6 +186,14 @@ const Members = () => {
       linkedin: 'https://www.linkedin.com/in/jitamanyu-phukan-562728280'
     },
     {
+      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724352670/WhatsApp_Image_2024-08-23_at_00.20.11_0f5ee973_j4sidy.jpg ',
+      name: 'Deepanshu Sharma',
+      designation: 'Junior Technical Member',
+      fb: ' https://www.facebook.com/cb.sharma.3304/ ',
+      insta: 'https://www.instagram.com/_dsharmaa',
+      linkedin: 'https://www.linkedin.com/in/deepanshu-sharma-b3a46828a/'
+    },
+    {
       img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184297/Photo_hhrzbd.jpg',
       name:'Shashwat Patel',
       designation: 'Junior Technical Member',
@@ -216,15 +224,8 @@ const Members = () => {
       fb: 'https://www.facebook.com/profile.php?id=100088421967870&mibextid=ZbWKwL ',
       insta: '',
       linkedin: 'https://www.linkedin.com/in/subrata-lodh-45541328a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
-    },
-    {
-      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184529/IMG-20240319-WA0017_-_DEEPANSHU_SHARMA_vsnu1j.jpg',
-      name: 'Deepanshu Sharma',
-      designation: 'Junior Technical Member',
-      fb: ' https://www.facebook.com/cb.sharma.3304/ ',
-      insta: 'https://www.instagram.com/_dsharmaa',
-      linkedin: 'https://www.linkedin.com/in/deepanshu-sharma-b3a46828a/'
     }
+
   ];
   return (
     <div className='container flex flex-col'>
