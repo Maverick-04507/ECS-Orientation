@@ -11,7 +11,7 @@ const About = () => {
       <div>
         <Navbar />
         <h1 className='mt-[9rem] mb-10 text-4xl font-semibold text-white'>KNOW <span className='className='text-yellow-400 font-extrabold''>ABOUT US</span></h1>
-        <div><Carousal2 /></div>
+        <div className='flex justify-center align-centre'><Carousal2 /></div>
         <p className='mt-20 flex m-auto w-[90%] text-lg leading-8 mb-[9rem] text-white'>The Electronics & Communication Society is the branch society which represents the department of ECE. The prime purpose of this society is to make the students familiar with the branch. Besides that, a number of exciting events take place under ECS. Starting from the branch Orientation, several events take place including Utkrishtha, the Freshers', the Spectrum that is the annual flagship event, Spectrum Fit for different indoor and outdoor activities and lastly, Dehleez, the farewell.</p>
       </div>
       <div className='mb-[25rem]'>
