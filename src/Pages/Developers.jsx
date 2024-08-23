@@ -3,14 +3,15 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import PersonCard from '../cards/PersonCard';
 const Developers = () => {
-  const developers = [    {
-    img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184297/Photo_hhrzbd.jpg',
-    name:'Shashwat Patel',
-    designation: 'Junior Technical Member',
-    fb: 'https://www.facebook.com/profile.php?id=61550363986087 ',
-    insta: 'https://www.instagram.com/belie.ver79/',
-    linkedin: 'https://www.linkedin.com/in/shashwat-patel-5b8a67279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfik4FtkKQ6ma9%2BzuASfbMw%3D%3D'
-  },
+  const developers = [   
+    {
+      img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724352670/WhatsApp_Image_2024-08-23_at_00.20.11_0f5ee973_j4sidy.jpg',
+      name: 'Deepanshu Sharma',
+      designation: 'Junior Technical Member',
+      fb: ' https://www.facebook.com/cb.sharma.3304/ ',
+      insta: 'https://www.instagram.com/_dsharmaa',
+      linkedin: 'https://www.linkedin.com/in/deepanshu-sharma-b3a46828a/'
+    }, 
   {
     img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724185451/Pf_2.1_-_Nikhil_Singh_wsjbev.jpg',
     name: 'Nikhil Singh',
@@ -36,13 +37,13 @@ const Developers = () => {
     linkedin: 'www.linkedin.com/in/sibajit-mazumder'
   },
   {
-    img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184529/IMG-20240319-WA0017_-_DEEPANSHU_SHARMA_vsnu1j.jpg',
-    name: 'Deepanshu Sharma',
+    img: 'https://res.cloudinary.com/dkquqobzd/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1724184297/Photo_hhrzbd.jpg',
+    name:'Shashwat Patel',
     designation: 'Junior Technical Member',
-    fb: ' https://www.facebook.com/cb.sharma.3304/ ',
-    insta: 'https://www.instagram.com/_dsharmaa',
-    linkedin: 'https://www.linkedin.com/in/deepanshu-sharma-b3a46828a/'
-  }
+    fb: 'https://www.facebook.com/profile.php?id=61550363986087 ',
+    insta: 'https://www.instagram.com/belie.ver79/',
+    linkedin: 'https://www.linkedin.com/in/shashwat-patel-5b8a67279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfik4FtkKQ6ma9%2BzuASfbMw%3D%3D'
+  },
   ];
   return (
     <div className='container'>
