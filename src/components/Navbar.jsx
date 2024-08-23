@@ -48,7 +48,7 @@ return (
           setCurrentUser={setCurrentUser}
         />
       )}
-    <div style={{ overflowX: 'hidden' }}>
+    <div style={{ overflowX: 'hidden' ,}}>
       <div className='flex visible justify-between pl-[1rem] pr-[1rem] h-[5rem] items-center md:invisible md:h-0'>
         <LinkRoute to='/'><img src={Logo} alt="" className='h-10 w-24' /></LinkRoute>
         <img src={mobileMenu === '0vh' ? 'https://res.cloudinary.com/dhry5xscm/image/upload/v1701946021/ecs-website/hamburger-menu_iqxqgn.png' : 'https://res.cloudinary.com/dhry5xscm/image/upload/v1701946204/ecs-website/xmark-solid_m8hqyk_vb8jx6.svg'} alt="" className='h-7 w-7' onClick={() => mobileMenu === '0vh' ? setMenu('100vh') : setMenu('0vh')} style={{ filter: `invert(${mobileMenu === '0vh' ? '0%' : '100%'})` }} />
