@@ -40,7 +40,7 @@ const Carousal2 = () => {
                             src={item.image}
                             alt={item.name}
                             className="object-cover rounded-lg"
-                            style={{width:'40vw', height:'55vh' }}
+                            style={{width:'35vw', height:'50vh' }}
                         />
                     </SwiperSlide>
                 ))}
