@@ -9,9 +9,8 @@ import Footer from '../components/Footer'
 import {Link} from 'react-router-dom'
 import './spectrumCont.css'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import bgVid from "../images/BackgroundVideo.mp4"
+import bgVid from "../images/BackgroundVideo1.mp4"
 import bgimg from "../images/digi.png"
-const BgURl="linear-gradient(45deg, #d80d0d, transparent)";
 const Home = () => {
   const [mobileView,setmobileView]=useState(true)
   // console.log(mobileView)

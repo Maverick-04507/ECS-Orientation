@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-
+/* //correctONe */
 #root {
     /* background: linear-gradient(to bottom, #000000,#000000, #2403e0); */
     background:  #030016;
@@ -41,9 +41,11 @@ html {
  #bgImg{
     background: #060027;
  }
- .eventbg{
-    background-image: url(../public/42341.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
+
+ @media screen and (max-width:460px){
+    .navbar{
+        position: absolute;
+        top: -2px;
+    }
+ }
  

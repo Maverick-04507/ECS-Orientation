@@ -57,9 +57,9 @@ function App() {
           <Route
           path="/resourcehub"
           element={
-            <Protected currentUser={currentUser}>
+            //<Protected currentUser={currentUser}>
               <ResourceHub />
-            </Protected>
+            //</Protected>
           }
         />
           {/* <Route path="/resourcehub" element={<ResourceHub />} /> */}

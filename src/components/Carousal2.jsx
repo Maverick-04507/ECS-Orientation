@@ -2,6 +2,8 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
 import { Autoplay, EffectCoverflow } from 'swiper/modules';
 
 const Carousal2 = () => {
@@ -19,19 +21,21 @@ const Carousal2 = () => {
     return (
         <div className='max-w-screen-xl flex justify-center items-center overflow-hidden mt-12'>
             <Swiper
-                autoplay={{ delay: 4000 }}
+                navigation={true}
+                autoplay={{ delay: 3000 }}
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
                 loop={true}
-                slidesPerView={2}
+                slidesPerView={events_data.length/2}
                 coverflowEffect={{
                     rotate: 0,
                     stretch: 200,
                     depth: 100,
                     modifier: 2.5,
                 }}
-                modules={[EffectCoverflow, Autoplay]}
+
+                modules={[EffectCoverflow, Autoplay, Navigation]}
                 className="w-full h-full md:scale-100 scale-50"
             >
                 {events_data.map((item, index) => (
@@ -40,7 +44,7 @@ const Carousal2 = () => {
                             src={item.image}
                             alt={item.name}
                             className="object-cover rounded-lg"
-                            style={{width:'35vw', height:'50vh' }}
+                            style={{width:'80vw', height:'55vh' ,objectPosition:"center",objectFit:"cover" }}
                         />
                     </SwiperSlide>
                 ))}
