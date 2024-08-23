@@ -30,4 +30,5 @@
   .alumniSwiper .swiper-slide-active+.swiper-slide div div {
     background-color: #bcdeec;
     z-index: 0;
+     @apply shadow-md shadow-black;
   }
