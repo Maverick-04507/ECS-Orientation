@@ -50,7 +50,7 @@ Life is beautiful, so embrace it.
           <SwiperSlide data-swiper-autoplay="2000">
             <div className='w-full flex flex-col items-center pl-20 pr-20 space-y-7 text-white pt-5 pb-5'>
               <img src={item.photo} className='w-[1rem] h-[1rem]' />
-              <p className='text-md max-w-screen-lg text-justify h-48 overflow-y-auto'>{item.message}</p>
+              <p className='text-md max-w-screen-lg text-justify h-48 overflow-y-scroll'>{item.message}</p>
               <div>
                 <h1 className='text-2xl font-semibold drop-shadow-xl shadow-black'>{item.name}</h1>
                 <p className='text-lg mb-5'>{item.designation}</p>
