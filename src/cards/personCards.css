@@ -51,7 +51,7 @@
 }
 
 .card:hover .card-heading {
-  color: #0fd967 !important;
+  color: aqua !important;
 }
 
 .card-subheading {
@@ -67,7 +67,7 @@
 }
 
 .card:hover .card-subheading {
-  color: #0fd967 !important;
+  color: aqua !important;
 }
 
 .card-links {
@@ -133,3 +133,5 @@
 .card:hover {
   box-shadow: 0 0 20px rgba(14, 192, 237, 0.7), 0 0 30px rgba(15, 217, 103, 0.5) !important;
 }
+
+
