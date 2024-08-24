@@ -31,8 +31,8 @@ const Hero = () => {
       <div className="flex justify-center items-center flex-col">
         <div className='h-[15rem] sm:h-[16rem]'>
           <div className="h-40 lg:h-80 w-50 flex flex-col  justify-center items-center font-semibold text-xl md:text-2xl lg:text-4xl text-white">
-            <div className="text-center mt-36 text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">ELECTRONICS & COMMUNICATION <span className="font-bold text-yellow-200">  SOCIETY</span></div>
-            <div id="hero" className="text-yellow-200 mt-3 sm:mt-7 text-xl sm:text-3xl lg:text-4xl xl:text-5xl">
+            <div className="text-center mt-36 text-2xl sm:text-3xl lg:text-4xl xl:text-5xl">ELECTRONICS & COMMUNICATION <span className="font-bold text-yellow-400">  SOCIETY</span></div>
+            <div id="hero" className="text-yellow-400 mt-3 sm:mt-7 text-xl sm:text-3xl lg:text-4xl xl:text-5xl">
               <span className='typingText'>
               <Typewriter
                 onInit={(typewriter) => {
